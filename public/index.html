@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socket IO</title>
+  </head>
+  <body>
+    <form action="chat.html">
+      <div class="container">
+        <div class="row">
+          <select name="select_room" id="select_room" required>
+            <option value="-1">Selecione a sala</option>
+            <option value="node">node</option>
+            <option value="java">java</option>
+            <option value="reactjs">reactjs</option>
+            <option value="elixir">elixir</option>
+          </select>
+        </div>
+
+        <div class="row">
+          <label class="form-label">Digite seu usuário</label>
+          <input type="text" name="username" id="username" required />
+        </div>
+
+        <div class="row">
+          <button type="submit" class="btn btn-primary mb-3">Entrar</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
